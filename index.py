@@ -4,7 +4,7 @@ import dash_html_components as html
 app = dash.Dash()
 
 app.layout = html.Div([
-    html.A("I've moved! I'm now using AWS Beanstalk. Click here to see my site!", href='http://baseballwebapp.us-east-2.elasticbeanstalk.com/home')
+    html.A("I've moved! I'm now using AWS Beanstalk. Click here to see my site!", href='http://baseballwebapp.us-east-2.elasticbeanstalk.com/kcr')
 ])
 
 if __name__ == '__main__':
